@@ -8,11 +8,10 @@ Console.WriteLine("Enter any numbers, words, or symbols: ");
 
 for (int i = 0; i < CreatArray.Length; i++)
 {
-    Console.Write($"Input {i + 1}:  ");
+    Console.Write($"Input {i + 1}: ");
     CreatArray[i] = Console.ReadLine();
 }
 
-string str = string.Join(", ", CreatArray);
 Console.Write("The condition is met for the following lines:  ");
 for (int i = 0; i < CreatArray.Length; i++)
 {
